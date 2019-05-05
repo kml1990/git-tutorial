@@ -1,3 +1,5 @@
+# Git tutorial
+
 ## **_git init_**
 
 Zainitializuj repozytorium git.
@@ -43,8 +45,35 @@ ich jako nowy commit. Polecnie moze byc uruchomione wylacznie na poziomie commit
 Z pomoca git revert mozemy bezpiecznie przywracac zmiany ktore znajduja sie juz w
 repozytorium publicznym.
 
+## **_git reset_**
+
+Przywraca zmiany w repozytorium do wskazanego punktu z histori zmian. Wazne: Nalezy
+zachowac szczegolna ostroznosc podczas przywracania zmian z pomoca tego polecania.
+Przywrocenie zmian oznacza modyfikacje historii comitow. Z tego powodu nie zaleca sie
+stosowania tego polecania w przypadku commitow wyslanych do zdalnego repozytorium.
+
 ## **_git log_**
 
 Pozwala podejzec historie commitow.
 
 ### **_git log --oneline_** pozwala podejzec historie repozytorium w przejzystej formie
+
+### **_git log --author="Kamil"_** - pozwala podejzec historie repozytorium danego autora
+
+### **_git log --oneline --author="Kamil"_** - laczenie
+
+### **_git log --grep="view"_** - wyszukiwanie konkretnej frazy w komntarzach commitow
+
+### **_git log --oneline -3_** - ile commitow chcemy zobaczyc
+
+### **_git log --oneline -- index.html_** - sprawdzanie histori danego pliku
+
+### **_git log --oneline --patch -- index.html_** - sprawdzanie co zostalo zmienione w danym pliku
+
+### **_git log --oneline --summary -- index.html_** - sprawdzanie skroconej informacji o zmianach w pliku/ach
+
+### **_git log --oneline --stat -- index.html_** - sprawdzanie statystyki zmian w pliku/ach.
+
+### **_git shortlog_** - histria zmian z podzialem na uzytkownikow.
+
+## Komentarze
