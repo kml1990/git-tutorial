@@ -1,6 +1,6 @@
 # Git tutorial
 
-## **_git init_**
+### **_git init_**
 
 Zainitializuj repozytorium git.
 
@@ -16,11 +16,23 @@ Odkladanie zapisania kodu na pozniej (dodawanie go do temp folder)
 
 ### **_git stash apply_** - przywroc zapisany wczesniej kod i nie usuwa stos
 
-### **_git stash push -m "dodatkowy kod"_** - dodaj dodatkowy kod do stos
+### **_git stash push -m "dodatkowy kod"_** - dodaj dodatkowy kod do stosu
 
 ### **_git stash list_** - pokaz liste stosow
 
 ### **_git stash clear_** - wyczysc stos
+
+## **_git push origin master_**
+
+Wyslij kod do zdalnego repozytorium
+
+## **_git pull_**
+
+Pobierz kod ze zdalnego repozytorium
+
+## **_git fetch_**
+
+Sprawdz co zostalo dodane do brancha
 
 ## **_git commit_**
 
@@ -138,3 +150,11 @@ Przygotowane tutaj zmiany najczesciej trafiaja bezposrednio na branch dev.
 - Ogranicz dlugosc wiersza tresci do 72 znakow
 - Piszac tresc komentarza odpwiadaj na pytania co i dlaczego. Na pytanie jak mozna odpowiedziec przegladajac
   wprowadzone zmiany
+
+---
+
+## Fork
+
+---
+
+Tworzy nowa kopie projektu - uzywamy gdy nie mamy uprawnien do edytowania kodu
