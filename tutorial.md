@@ -36,6 +36,13 @@ zostanie wczytana wersja pliku z wubranego commitu (domyslnie z HEAD).
 Przywraca stan pliku z indeksu gita. W paktyce przywraca wpowadzon zmiany.
 Moze byc wykorzystane tylko wtedy, gdy plikisntieje juz w indeksie.
 
+## **_git revert_**
+
+Revert to operacja polegajaca na odwroceniu zmian z wybranego commitu i zapisaniu
+ich jako nowy commit. Polecnie moze byc uruchomione wylacznie na poziomie commitu.
+Z pomoca git revert mozemy bezpiecznie przywracac zmiany ktore znajduja sie juz w
+repozytorium publicznym.
+
 ## **_git log_**
 
 Pozwala podejzec historie commitow.
