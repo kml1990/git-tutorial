@@ -8,6 +8,8 @@ Zainitializuj repozytorium git.
 
 Dodaj do stagu.
 
+## **_git stash_**
+
 ## **_git commit_**
 
 Rejestrowanie zmian w repozytorium.
@@ -76,4 +78,17 @@ Pozwala podejzec historie commitow.
 
 ### **_git shortlog_** - histria zmian z podzialem na uzytkownikow.
 
-## Komentarze
+---
+
+## Komentarze ( 7 zasad )
+
+---
+
+- Podziel komentarz na tytul oraz tresc, oddzielajac je pustym wierszem
+- Ogranicz tytul do 50 znakow
+- Tytul rozpocznij Wielka litera
+- Nie dodawaj kropki na koncu tytulu
+- Uzywaj trybu rozkazujacego w tresci tytulu, np. Add e-mail field to login form zamiast New field in login form
+- Ogranicz dlugosc wiersza tresci do 72 znakow
+- Piszac tresc komentarza odpwiadaj na pytania co i dlaczego. Na pytanie jak mozna odpowiedziec przegladajac
+  wprowadzone zmiany
