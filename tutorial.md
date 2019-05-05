@@ -10,6 +10,8 @@ Dodaj do stagu.
 
 ## **_git stash_**
 
+Odkladanie zapisania kodu na pozniej (dodawanie go do temp folder)
+
 ## **_git commit_**
 
 Rejestrowanie zmian w repozytorium.
