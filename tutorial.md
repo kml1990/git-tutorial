@@ -12,6 +12,16 @@ Dodaj do stagu.
 
 Odkladanie zapisania kodu na pozniej (dodawanie go do temp folder)
 
+### **_git stash pop_** - przywroc zapisany wczesniej kod i usuwa stos
+
+### **_git stash apply_** - przywroc zapisany wczesniej kod i nie usuwa stos
+
+### **_git stash push -m "dodatkowy kod"_** - dodaj dodatkowy kod do stos
+
+### **_git stash list_** - pokaz liste stosow
+
+### **_git stash clear_** - wyczysc stos
+
 ## **_git commit_**
 
 Rejestrowanie zmian w repozytorium.
