@@ -90,6 +90,14 @@ Pozwala podejzec historie commitow.
 
 ### **_git shortlog_** - histria zmian z podzialem na uzytkownikow.
 
+## **_git branch_**
+
+### **_git branch_** - pokaz liste branchy
+
+### **_git branch branchName_** - dodaj branch o nazwie branchName
+
+### **_git checkout branchName_** - przejdz do branchu branchName
+
 ---
 
 ## Komentarze ( 7 zasad )
