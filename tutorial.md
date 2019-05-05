@@ -92,11 +92,37 @@ Pozwala podejzec historie commitow.
 
 ## **_git branch_**
 
+### **_Master branch_**
+
+Glowna galaz projektu wykorzystywana do publikacji najnowszej wersji projektu na serwerze produkcyjnym.
+Master powinien zawsze zawierac stabilna wersje projektu. Mozliwosc wpowadzenia zmian powinna byc ograniczona.
+
+### **_Dev branch_**
+
+Galaz na ktorej znajduje sie wersja testowa projektu (alpha/beta), zwykle polaczona z serwerem testowym.
+
+### **_Feature branch_**
+
+Na tej galezi prowadzone sa pace nad nowymi funkcjami. Po ukonczeniu prac, zmiany trafiaja do branch dev.
+
+### **_User branch_**
+
+Galezie uzytkownikow sluza indywidualnej pracy czlonka zespolu nad zmianami. Ukonczone zmiany trafiaja na branch feature.
+
+### **_Test/Bugfix branch_**
+
+W szczegolnych przypadkach, konieczne jest szybkie wprowadzenie zmian. W tej sytuacji wykorzystywane sa branch'e typu bugix.
+Przygotowane tutaj zmiany najczesciej trafiaja bezposrednio na branch dev.
+
 ### **_git branch_** - pokaz liste branchy
 
 ### **_git branch branchName_** - dodaj branch o nazwie branchName
 
 ### **_git checkout branchName_** - przejdz do branchu branchName
+
+### **_git merge branchName_** - merge branchu z pozycji master
+
+### **_git branch -b branchName_** - usun dany branch
 
 ---
 
