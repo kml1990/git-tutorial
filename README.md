@@ -102,9 +102,17 @@ Pozwala podejzec historie commitow.
 
 ### **_git shortlog_** - histria zmian z podzialem na uzytkownikow.
 
-## **_git rebase_**
+## **_git tag_**
 
-Proces na ktorym zmieniamy commit na ktorym branch zostal stworzony na aktualny, zawartosc poprzednich commitow zostaje skopiowana. Utworzenie nowych commitow na podstawie innych.
+Dodawanie tagow do waznych commitow.
+
+### **_git tag v1.0_** - Dodaj wersje 1.0 do poprzednio uzytego commitu
+
+### **_git tag -a -m "Initial version"_** - flaga `a` sprawia ze zostaje wyswietlona informacja o autorze. Flaga `m` pozwala nam dodac komentarz na temat wersji.
+
+### **_git push --tags_** - Wyslij tagi do zdalnego repozyorium.
+
+### **_git push origin -d v1.0_** - Usun tag ze zdalnego repozytorium.
 
 ## **_git branch_**
 
@@ -139,6 +147,10 @@ Przygotowane tutaj zmiany najczesciej trafiaja bezposrednio na branch dev.
 ### **_git merge branchName_** - merge branchu z pozycji master
 
 ### **_git branch -b branchName_** - usun dany branch
+
+## **_git rebase_**
+
+Proces na ktorym zmieniamy commit na ktorym branch zostal stworzony na aktualny, zawartosc poprzednich commitow zostaje skopiowana. Utworzenie nowych commitow na podstawie innych.
 
 ---
 
