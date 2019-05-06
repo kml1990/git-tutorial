@@ -102,6 +102,10 @@ Pozwala podejzec historie commitow.
 
 ### **_git shortlog_** - histria zmian z podzialem na uzytkownikow.
 
+## **_git rebase_**
+
+Proces na ktorym zmieniamy commit na ktorym branch zostal stworzony na aktualny, zawartosc poprzednich commitow zostaje skopiowana. Utworzenie nowych commitow na podstawie innych.
+
 ## **_git branch_**
 
 ### **_Master branch_**
